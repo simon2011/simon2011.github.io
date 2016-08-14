@@ -24,7 +24,7 @@ redcarpet:
     - with_toc_data
     
 
-title : 知识源于分享
+title : with_toc_data
 tagline: IT的世界，你懂得多少......
 
 defaults:
