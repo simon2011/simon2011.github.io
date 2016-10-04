@@ -33,12 +33,12 @@ description: ZooKeeper是一个分布式的，开放源码的分布式应用程�
     zookeeper安装包：http://zookeeper.apache.org/releases.html 下载稳定版本，现在的版本是3.4.5
 
 
-###端口检查
+##端口检查
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通常使用的端口 2181，2888，3888 ，检查是否占用，占用则下面的配置中更改端口。检查命令：
 
     netstat -ano | grep 2181
    
-###单机多实例配置及启动
+##单机多实例配置及启动
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;切换到zookeeper配置文件目录,使用命令
    ```
   mv zoo_sample.cfg  zoo.cfg
