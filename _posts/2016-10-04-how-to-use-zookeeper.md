@@ -40,12 +40,12 @@ description: ZooKeeper是一个分布式的，开放源码的分布式应用程�
    
 ##单机多实例配置及启动
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;切换到zookeeper配置文件目录,使用命令
-   ```
-  mv zoo_sample.cfg  zoo.cfg
+
+    mv zoo_sample.cfg  zoo.cfg
     
-    ```
+
     
-配置文件内容
+配置文件内容：
 
  ```
  tickTime=2000
@@ -62,8 +62,8 @@ description: ZooKeeper是一个分布式的，开放源码的分布式应用程�
   ```
     
  拷贝配置文件，生成三个配置文件：zoo-1.cfg、zoo2.cfg 、zoo3.cfg。
-
   zoo1.cfg需要为dataDir和dataLogDir设置目录，改动内容如下：
+  
 ```
 dataDir=/data/apache/zookeeper/data/zoo1
 dataLogDir=/data/apache/zookeeper/datalog/zoo1
