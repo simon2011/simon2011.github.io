@@ -40,7 +40,7 @@ description: ZooKeeper是一个分布式的，开放源码的分布式应用程�
    
 ###单机多实例配置及启动
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;切换到zookeeper配置文件目录,使用命令
-    ```
+   ```
   mv zoo_sample.cfg  zoo.cfg
     
     ```
