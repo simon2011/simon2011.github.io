@@ -13,23 +13,24 @@ description: ZooKeeper是一个分布式的，开放源码的分布式应用程�
 <!-- more -->
 ##准备工作
 - **Linux环境**
- 个人使用虚拟机ubuntu的系统
 
-```
- ubuntu下载地址  http://www.ubuntu.com/download
-```
+    个人使用虚拟机ubuntu的系统, ubuntu下载地址  http://www.ubuntu.com/download
+
 - **JDK安装**
-zookeeper需要java运行环境，这个建议1.6以上，配置好 JAVA_HOME 、CLASSPATH、 PATH 变量。
 
-```
-jdk下载地址：http://www.oracle.com/technetwork/java/javase/downloads/index.html
-环境变量配置：
-export JAVA_HOME="/usr/lib/jvm/jdk1.7.0_40"
-export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-export ZOOKEEPER_HOME="/data/apache/zookeeper"
-export PATH="$PATH:$JAVA_HOME/bin:$ZOOKEEPER_HOME/bin"
+    zookeeper需要java运行环境，这个建议1.6以上，配置好 JAVA_HOME 、CLASSPATH、 PATH 变量。jdk下载地址：http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-```
+    环境变量配置：
+    ```
+    export JAVA_HOME="/usr/lib/jvm/jdk1.7.0_40"
+    export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+    export ZOOKEEPER_HOME="/data/apache/zookeeper"
+    export PATH="$PATH:$JAVA_HOME/bin:$ZOOKEEPER_HOME/bin"
+    
+    ```
+- **zookeeper安装**
+ 
+    zookeeper安装包：http://zookeeper.apache.org/releases.html 下载稳定版本，现在的版本是3.4.5
 
 
 ###属性功能
